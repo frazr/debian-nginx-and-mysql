@@ -1,0 +1,6 @@
+PORTS = -p 8080:80
+
+VOLUMES = -v /home/nik/docker/volumes/blog:/data
+
+ENV = \
+  -e SOME_KEY=SOME_VALUE
