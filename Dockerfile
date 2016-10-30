@@ -9,6 +9,7 @@ RUN apt-get update && \
   supervisor \
   git \
   nginx \
+	vim \
   mysql-server
 
 # Add persistance volume 
